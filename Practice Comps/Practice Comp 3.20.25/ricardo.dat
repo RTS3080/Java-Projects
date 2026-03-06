@@ -1,0 +1,6 @@
+5
+(rows|curls)
+(running,deadlift,stretch)
+(lunge,(rows|curls),(squats|press))
+(a|a)
+(lunge,(rows|curls),((squats|s)|(press|a)))

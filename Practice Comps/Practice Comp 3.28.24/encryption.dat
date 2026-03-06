@@ -1,0 +1,7 @@
+6
+2 hello
+-2 hello
+1 zzz aaa
+26 this should stay the same
+-26 this should also stay the same
+13 abcdefghijklmnopqrstuvwxyz zyxwvutsrqponmlkjihgfedcba should start at n and m

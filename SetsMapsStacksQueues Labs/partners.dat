@@ -1,0 +1,34 @@
+14
+continental
+delta
+austrian_airways
+alaska
+america_west
+mesa
+twa
+virgin_atlantic
+air_china
+southwest
+swiss_air
+northwest
+air_france
+air_canada
+13
+continental america_west
+continental air_china
+america_west mesa
+continental alaska
+america_west alaska
+continental air_france
+america_west twa
+continental virgin_atlantic
+virgin_atlantic air_france
+delta swiss_air
+austrian_airways delta
+delta austrian_airways
+delta air_canada
+4
+delta america_west
+continental mesa
+southwest delta
+twa air_france

@@ -1,0 +1,30 @@
+Long ago, on the distant and odoriferous Planet Stink, there ruled a most peculiar and demanding monarch: Emperor Gupta the Fragrant, whose passion for efficiency was rivaled only by his insatiable thirst for cosmic dominance.
+One fateful morning, the Emperor summoned the brightest engineers of his empire and issued a decree that would shake the very foundations of intergalactic linguistics: “Construct for me,” he declared, his voice echoing through the sulfurous skies, “a Communication Network of Words, so that every word in my royal dictionary may reach every other word - not through speech, not through writing, but through transformation itself!”
+The task, however, was not one of mere cables or signals. No, the Emperor demanded a network forged in edits. Two words are said to be connected if one can be transformed into the other by a sequence of edit operations, where each operation may be:
+●	Insertion - inserting a single character at any position in the word.
+●	Deletion - removing a single character from the word.
+●	Replacement - changing a single character in the word to another.
+Each operation is costly - every insertion, deletion, or replacement extracts the soul of his citizens. The Emperor, merciful as he was tyrannical, sought to minimize the total number of souls lost.
+Given a collection of words from the royal lexicon, Emperor Gupta demands to know: What is the minimum total cost, in citizen souls, required to ensure that every word in the network is connected to every other, either directly or through a series of edit transformations?
+Input
+The problem starts with the integer, t, the number of test cases in the problem (1 <= t <= 1000).
+For each test case, you are given an integer, n, the number of words that will be used within the network
+(1 <= n <= 100), along with an integer m, the number of souls each edit will cost (1 <= m <= 10).
+
+The next n lines, there will be a word (alphanumeric), with no whitespaces included. Upper and lower cases matter.
+Output
+For each test case, output the minimum number of souls to create the communication network.
+Example Input File
+2
+3 2
+testCase
+testBase
+bestBase
+4 3
+planet
+blanket
+gupta
+wupta
+Example Output
+4
+27

@@ -1,0 +1,6 @@
+There are several applications in which the order of character sequences in
+the English language is important.  For example, when designing the keyboard
+of a PDA, typewriter, or other text entry machine, the ergonomic movement of
+fingers can be optimized by properly arranging the keys.  In this problem,
+you will build a program that analyzes some plain text to determine the
+frequency of combinations of characters in English words.

@@ -1,0 +1,47 @@
+35 11
+123 616 1005 616 true true false
+9999 5150 781 781 false false true
+212 616 7 616 true false true
+39 9 8 -1 true true false
+19999 781 34 34 true true true
+1 616 34 616 true false true
+2 123 456 456 true false false
+3 456 414 -1 true false true
+4 789 616 616 true true false
+5 1000 2000 -1 false false false
+6 3000 4000 4000 false false true
+7 4000 5000 5000 true false true
+8 4000 6000 -1 true true true
+9 109 110 -1 false true true
+10 134 432 432 false true false
+11 432 616 616 true true false
+12 889 888 -1 false false false
+13 887 886 -1 false false false
+14 885 884 -1 false false false
+15 883 882 -1 true false false
+16 881 880 -1 false false false
+17 1023 1020 -1 true true true
+18 1021 1022 1022 true false false
+19 1022 616 616 true false false
+20 1024 1025 -1 false false false
+21 1026 1027 -1 false true false
+22 1028 1029 1029 false false true
+23 1029 1030 1030 false false true
+24 616 1030 616 true false true
+25 49 48 -1 false false false
+26 47 46 -1 false true false
+27 45 44 44 true true false
+28 44 43 44 true true true
+29 44 616 616 true true false
+30 42 41 -1 false false false
+SELECT where MAPMAKERS=true
+COUNT where WINNER=616, SUPERHEROES=true
+SELECT where MAPMAKERS=false, SUPERHEROES=false, SWANS=false
+COUNT where WINNER=-1
+SELECT where MAPMAKERS=true, SUPERHEROES=false
+SELECT where WINNER=-1, SWANS=true
+COUNT where WINNER=616, MAPMAKERS=true
+COUNT where WINNER=616, SWANS=true
+COUNT where SWANS=true
+SELECT where SUPERHEROES=false, WINNER=-1
+SELECT where WINNER=2017

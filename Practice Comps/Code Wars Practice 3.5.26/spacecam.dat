@@ -1,0 +1,18 @@
+START C C C C C
+O O O O O
+O O O O O
+O O O O O
+O O O O O
+END
+START C C O O O
+N N O O O
+C O O O O
+C O O O O
+C O O O O   
+END
+START C C O C O
+N T T T T
+T T T T T
+T T T T T
+T T T T T
+END

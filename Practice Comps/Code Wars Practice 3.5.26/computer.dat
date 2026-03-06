@@ -1,0 +1,15 @@
+1 LOAD var 1
+10 PRINT var
+11 END
+5 END
+19 PRINT noinit
+20 LOAD noinit 10
+21 PRINT noinit
+30 LOAD x 5
+35 LOAD y 1
+40 ADD x 5
+45 ADD y 1
+50 IF y == 5 GOTO 70
+60 IF z == 0 GOTO 40
+70 PRINT x
+80 END

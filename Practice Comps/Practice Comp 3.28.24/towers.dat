@@ -1,0 +1,31 @@
+14
+first 1 5
+second 5 3
+third 3 1
+fourth 10 10
+fifth 10 14
+sixth 13 14
+seventh 3 15
+eighth 20 20
+ninth 22 25
+tenth 23 23
+eleventh 8 28
+twelfth 4 25
+thirteenth 7 19
+fourteenth 4 15
+7
+2.9 3.1 times-square
+3.1 5.7 empire-state-building
+11.2 12.1 statue-of-liberty
+3.4 14.1 central-park
+5.6 17.8 brooklyn-bridge
+23.6 22.1 A
+6 20 B
+7
+first second third
+fourth fifth sixth
+second fourth third
+first fourth seventh
+eighth ninth tenth
+seventh eleventh twelfth
+seventh thirteenth fourteenth

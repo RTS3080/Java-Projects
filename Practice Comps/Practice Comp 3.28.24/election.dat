@@ -1,0 +1,23 @@
+7
+3
+Texas 100 40 10 34
+California 30 50 25 55
+Nevada 20 20 30 5
+2
+Utah 50 10 10 5
+Nevada 11 50 10 5
+2
+Utah 50 10 10 5
+Nevada 10 50 10 5
+1
+Louisiana 0 0 100 9
+3
+Texas 100 0 0 10
+California 0 100 0 10
+Nevada 0 0 100 10
+2
+Texas 1 0 0 2
+California 0 1000000 1000001 1
+2
+Texas 1 0 0 2
+California 0 9999 0 1
