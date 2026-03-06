@@ -13,3 +13,41 @@
 60 IF z == 0 GOTO 40
 70 PRINT x
 80 END
+10 LOAD x 1
+20 IF x == 1 GOTO 40
+30 PRINT x
+40 END
+1 LOAD x 20
+2 LOAD y 30
+3 LOAD z 40
+4 IF a == 0 GOTO 6
+5 IF x == 20 GOTO 7
+6 IF y == 30 GOTO 5
+7 IF z == 40 GOTO 9
+8 PRINT x
+9 PRINT y
+10 PRINT z
+11 END
+5 ADD x 5
+6 ADD y 10
+7 ADD x 0
+8 PRINT x
+9 PRINT y
+10 PRINT z
+11 END
+100 LOAD xxxxxxxxxx 0
+200 ADD xxxxxxxxxx 100
+300 PRINT xxxxxxxxxx
+400 END
+500 LOAD zzzzzzzzzz 1000
+1000 END
+500 LOAD zzzzzzzzzz 1000
+525 ADD zzzzzzzzzz 1000
+550 PRINT zzzzzzzzzz
+1000 END
+1 PRINT x
+2 ADD x 10
+3 PRINT x
+4 LOAD x 0
+5 PRINT x
+6 END
