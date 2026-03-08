@@ -26,6 +26,168 @@ James
 Betty
 Jimmy
 END
+START 3 4
+Pencil
+Eraser
+Notebook
+Pen
+Marc
+Eraser
+Notebook
+Pencil
+Pen
+James
+Eraser
+Pencil
+Notebook
+Pen
+Tim
+Eraser
+Pencil
+Pen
+Notebook
+Marc
+James
+Tim
+END
+START 1 1
+A Really Cool Prize That George Will Win
+George
+A Really Cool Prize That George Will Win
+George
+END
+START 3 4
+You will never win this prize.
+Prize #1
+Prize #2
+Prize #3
+Contestant #1
+Prize #1
+Prize #2
+Prize #3
+You will never win this prize.
+Contestant #2
+Prize #2
+Prize #3
+Prize #1
+You will never win this prize.
+Contestant #3
+Prize #1
+Prize #2
+Prize #3
+You will never win this prize.
+Contestant #1
+Contestant #2
+Contestant #3
+END
+START 3 2
+Candy
+A Cup of Joe
+Joe
+A Cup of Joe
+Candy
+Candy
+Candy
+A Cup of Joe
+Parker Lewis
+A Cup of Joe
+Candy
+Candy
+Joe
+Parker Lewis
+END
+START 4 5
+everything
+a lot of things
+something
+little
+nothing
+Contestant #1
+something
+a lot of things
+everything
+little
+nothing
+Contestant #2
+nothing
+something
+a lot of thins
+everything
+little
+Contestant #3
+something
+a lot of things
+everything
+little
+nothing
+Contestant #4
+something
+a lot of things
+everything
+nothing
+little
+Contestant #1
+Contestant #2
+Contestant #3
+Contestant #4
+END
+START 10 1
+the coolest prize of all
+Contestant #1
+the coolest prize of all
+Contestant #2
+the coolest prize of all
+Contestant #3
+the coolest prize of all
+Contestant #4
+the coolest prize of all
+Contestant #5
+the coolest prize of all
+Contestant #6
+the coolest prize of all
+Contestant #7
+the coolest prize of all
+Contestant #8
+the coolest prize of all
+Contestant #9
+the coolest prize of all
+Contestant #10
+the coolest prize of all
+Contestant #1
+Contestant #2
+Contestant #3
+Contestant #4
+Contestant #5
+Contestant #6
+Contestant #7
+Contestant #8
+Contestant #9
+Contestant #10
+END
+START 1 10
+a toy
+another toy
+still another toy
+yet another toy
+you guessed it, another toy
+can you believe another toy?
+not a toy
+just kidding, the last one was a toy
+the last one and this one are toys
+all the toys
+He
+all the toys
+a toy
+another toy
+still another toy
+yet another toy
+you guessed it, another toy
+can you believe another toy?
+not a toy
+just kidding, the last one was a toy
+the last one and this one are toys
+He
+END
 START 1 1
 Prize 1
 Contestant 1

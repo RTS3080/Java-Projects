@@ -31,54 +31,77 @@ public class minehunt{
 
         return count;
     }
-
-    public void fill(int r, int c) {
+    void fill(int r, int c){
         if (!inBounds(r, c)) return;
         if (revealed[r][c]) return;
-
-
         revealed[r][c] = true;
-
-        if (field[r][c] != '@') {
-            int count = counts[r][c];
-            if (count == 0) {
-                field[r][c] = '.';
-            } else {
-                field[r][c] = (char) ('0' + count);
-            }
-        }
-
-        if (counts[r][c] != 0) {
+        if(counts[r][c] !=0){
             return;
         }
-
-        int[][] dirs = new int[][]{{-1, 0}, {1, 0}, {0, -1}, {0, 1}};
-        for (int[] dir : dirs) {
-            int nr = r + dir[0];
-            int nc = c + dir[1];
-
-            fill(nr, nc);
-        }
-
-        dirs = new int[][] {{-1, -1}, {-1, 1}, {1, -1}, {1, 1}};
-        for (int[] dir : dirs) {
-            int nr = r + dir[0];
-            int nc = c + dir[1];
-
-            if (inBounds(nr, nc)) {
-                revealed2[nr][nc] = true;
-
-                if (field[nr][nc] != '@') {
-                    int count = counts[nr][nc];
-                    if (count == 0) {
-                        field[nr][nc] = '.';
-                    } else {
-                        field[nr][nc] = (char) ('0' + count);
-                    }
+        for(int i = r-1; i<=r+1; i++){
+            for (int j = c-1; j <= c+1 ; j++) {
+                if(!inBounds(i, j)) continue;
+                if(counts[i][j] >0){
+                    field[i][j] = (char)('0' + counts[i][j]);
+                    revealed[i][j] = true;
                 }
             }
         }
+        field[r][c] = '.';
+        int[] dr = {-1,1,0,0};
+        int[] dc = {0,0,-1,1};
+        for (int i = 0; i < 4; i++) {
+            fill(r+dr[i], c+dc[i]);
+        }
+
     }
+//    public void fill(int r, int c) {
+//        if (!inBounds(r, c)) return;
+//        if (revealed[r][c]) return;
+//
+//
+//        revealed[r][c] = true;
+//
+//        if (field[r][c] != '@') {
+//            int count = counts[r][c];
+//            if (count == 0) {
+//                field[r][c] = '.';
+//            } else {
+//                field[r][c] = (char) ('0' + count);
+//            }
+//        }
+//
+//        if (counts[r][c] != 0) {
+//            return;
+//        }
+//
+//        int[][] dirs = new int[][]{{-1, 0}, {1, 0}, {0, -1}, {0, 1}};
+//        for (int[] dir : dirs) {
+//            int nr = r + dir[0];
+//            int nc = c + dir[1];
+//
+//            fill(nr, nc);
+//        }
+//
+//        dirs = new int[][] {{-1, -1}, {-1, 1}, {1, -1}, {1, 1}};
+//        for (int[] dir : dirs) {
+//            int nr = r + dir[0];
+//            int nc = c + dir[1];
+//
+//            if (inBounds(nr, nc)) {
+//                revealed2[nr][nc] = true;
+//
+//                if (field[nr][nc] != '@') {
+//                    int count = counts[nr][nc];
+//                    if (count == 0) {
+//                        field[nr][nc] = '.';
+//                    } else {
+//                        field[nr][nc] = (char) ('0' + count);
+//                    }
+//                }
+//            }
+//        }
+//    }
 
     public void run() throws FileNotFoundException{
         Scanner f= new Scanner(new File("minehunt".toLowerCase()+".dat"));
@@ -97,18 +120,26 @@ public class minehunt{
                 counts[i][j] = countMines(i, j);
             }
         }
-
         while (f.hasNext()) {
             int r = f.nextInt() - 1;
             int c = f.nextInt() - 1;
-            fill(r, c);
+            if(counts[r][c] != 0){
+                field[r][c] = (char)('0' + counts[r][c]);
+                revealed[r][c] = true;
+            }
+            if(counts[r][c] == -1){
+                field[r][c] = '@';
+            }
+            else {
+                fill(r, c);
+            }
         }
 
         char[][] out = new char[20][20];
 
         for (int i = 0; i < 20; i++) {
             for (int j = 0; j < 20; j++) {
-                if (revealed[i][j] || revealed2[i][j]) {
+                if (revealed[i][j]) {
                     out[i][j] = field[i][j];
                 } else {
                     out[i][j] = 'x';

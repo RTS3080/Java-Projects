@@ -1,0 +1,72 @@
+START C C C C C
+O O O O O
+O O O O O
+O O O O O
+O O O O O
+END
+START C C O O O
+N N O O O
+C O O O O
+C O O O O
+C O O O O   
+END
+START C C O C O
+N T T T T
+T T T T T
+T T T T T
+T T T T T
+END
+START C C O O O
+T N N N N
+N N N N N
+N N N N N
+N N N N N
+END
+START C C O O O
+O N N N N
+N N N N N
+N N N N N
+N N N N N
+END
+START C C O O O
+N T N N N
+N N N N N
+N N N N N
+N N N N N
+END
+START C C C C C
+N O O O O
+O O C C C
+O O O C C
+O O O O C
+END
+START C C O O O
+N O C N N
+N N O C N
+N N N O C
+N N N N O
+END
+START C C O O O
+N N N N N
+N N N N N
+N N N N N
+N N N N N
+END
+START C C O O O
+N O C N N
+N N O C N
+N N N O C
+O O O O O
+END
+START C C O O O
+N O C N N
+N N O C N
+N N N O C
+O O O C O
+END
+START C C O O O
+N O C N N
+N N O C N
+N N N O C
+N O O O O
+END
