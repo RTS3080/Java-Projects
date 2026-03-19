@@ -1,4 +1,3 @@
-import javax.xml.transform.stream.StreamSource;
 import java.io.PrintStream;
 import java.util.*;
 import java.util.stream.IntStream;
@@ -11,8 +10,18 @@ public class Main {
 //        System.out.println(f.hasNextInt());
 //        Stack<Integer> stack = new Stack<>();
 //        String s = "test";
+        TreeSet<Integer> set = new TreeSet<>();
+        int[] arr = Arrays.stream("7 9 5 0 2 4".split(" ")).mapToInt(Integer::parseInt).toArray();
+        for(int i : arr){
+            set.add(i);
+        }
+        System.out.println(set.floor(3));
+        System.out.println(set.ceiling(10));
 
-        System.out.printf("%c", 1048575);
+        var test = new HashMap<String, String>();
+        for (int i = 0; i < 10; i++) {
+            test.put(Character.toString(((char)(i + 'A' ))),Character.toString(((char)(i + 'A' ))));
+        }
     }
 
 
