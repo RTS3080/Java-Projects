@@ -17,11 +17,11 @@ public class max{
             int[] times = new int[numGames];
             for (int i = 0; i < numGames; i++) times[i] = f.nextInt();
 
-            int[] enjoys = new int[numGames];
-            for (int i = 0; i < numGames; i++) enjoys[i] = (int) (f.nextDouble() * 100);
+            double[] enjoys = new double[numGames];
+            for (int i = 0; i < numGames; i++) enjoys[i] = (f.nextDouble());
 
-            int[][] dp = new int[numGames+1][totalTime+1];
-            int result = 0;
+            double[][] dp = new double[numGames+1][totalTime+1];
+            double result = 0;
 
             for (int r = 1; r < dp.length; r++){
                 for (int c = 0; c < dp[r].length; c++){
@@ -37,7 +37,7 @@ public class max{
 //            for (int[] each : dp) System.out.println(Arrays.toString(each));
 
             if (result == 0.0) System.out.println("Should have picked better games...");
-            else System.out.printf("%.2f\n", result/100.0);
+            else System.out.printf("%.2f\n", result);
         }
         f.close();
     }
