@@ -1,3 +1,5 @@
+import com.sun.security.jgss.GSSUtil;
+
 import java.io.PrintStream;
 import java.util.*;
 import java.util.stream.IntStream;
@@ -5,24 +7,83 @@ import java.util.stream.Stream;
 
 public class Main {
     public static void main(String[] args) {
+        new Main().run();
+    }
+    void run() {
 //        Scanner f= new Scanner(System.in);
 //        f.useRadix(8);
 //        System.out.println(f.hasNextInt());
 //        Stack<Integer> stack = new Stack<>();
 //        String s = "test";
-        TreeSet<Integer> set = new TreeSet<>();
-        int[] arr = Arrays.stream("7 9 5 0 2 4".split(" ")).mapToInt(Integer::parseInt).toArray();
-        for(int i : arr){
-            set.add(i);
+//        TreeSet<Integer> set = new TreeSet<>();
+//        int[] arr = Arrays.stream("7 9 5 0 2 4".split(" ")).mapToInt(Integer::parseInt).toArray();
+//        for(int i : arr){
+//            set.add(i);
+//        }
+//        System.out.println(set.floor(3));
+//        System.out.println(set.ceiling(10));
+//
+//        var test = new HashMap<String, String>();
+//        for (int i = 0; i < 10; i++) {
+//            test.put(Character.toString(((char)(i + 'A' ))),Character.toString(((char)(i + 'A' ))));
+//        }
+//
+        record Point(int x, int y){
+            static int a;
+            public Point(int x, int y) {
+                this.x = x;
+                this.y = y;
+                a = x*y;
+            }
+            
+            int test(){
+                return 1;
+            }
         }
-        System.out.println(set.floor(3));
-        System.out.println(set.ceiling(10));
 
-        var test = new HashMap<String, String>();
-        for (int i = 0; i < 10; i++) {
-            test.put(Character.toString(((char)(i + 'A' ))),Character.toString(((char)(i + 'A' ))));
+        Point p = new Point(1, 3);
+        Point p2 = new Point(2, 2);
+
+        System.out.println(p.getClass());
+        System.out.println(p2.getClass());
+
+    }
+    class T{
+        int x;
+        int y;
+        T(int x, int y){
+            this.x = x;
+            this.y = y;
+        }
+        static class test{
+            public test() {
+
+            }
         }
     }
+    abstract class A{
+        abstract int call();
+    }
+    interface C{
+        int call();
+    }
+    class B extends A {
+        public B(){
 
+        }
+
+        protected int call(){
+            return 1;
+        }
+    }
+    class D extends B{
+        public D(){
+
+        }
+        public int call(){
+            return 2;
+        }
+    }
+}record Point(int x, int y, int z){
 
 }
