@@ -9,6 +9,7 @@ public class Main {
     public static void main(String[] args) {
         new Main().run();
     }
+
     void run() {
 //        Scanner f= new Scanner(System.in);
 //        f.useRadix(8);
@@ -28,62 +29,100 @@ public class Main {
 //            test.put(Character.toString(((char)(i + 'A' ))),Character.toString(((char)(i + 'A' ))));
 //        }
 //
-        record Point(int x, int y){
-            static int a;
-            public Point(int x, int y) {
-                this.x = x;
-                this.y = y;
-                a = x*y;
-            }
-            
-            int test(){
-                return 1;
-            }
-        }
+//        record Point(int x, int y){
+//            static int a;
+//            public Point(int x, int y) {
+//                this.x = x;
+//                this.y = y;
+//                a = x*y;
+//            }
+//
+//            int test(){
+//                return 1;
+//            }
+//        }
+//
+//        Point p = new Point(1, 3);
+//        Point p2 = new Point(2, 2);
+//
+//        System.out.println(p.getClass());
+//        System.out.println(p2.getClass());
+//        byte a = 3;
+//        byte b = 8;
 
-        Point p = new Point(1, 3);
-        Point p2 = new Point(2, 2);
-
-        System.out.println(p.getClass());
-        System.out.println(p2.getClass());
-
+        Integer[] a = new Integer[5];
+        System.out.println(a instanceof Object);
+        System.out.println(a[0] instanceof Integer);
     }
-    class T{
+
+    class T {
         int x;
         int y;
-        T(int x, int y){
+
+        T(int x, int y) {
             this.x = x;
             this.y = y;
         }
-        static class test{
+
+        static class test {
             public test() {
 
             }
         }
     }
-    abstract class A{
+
+    abstract class A {
         abstract int call();
     }
-    interface C{
+
+    interface C {
         int call();
     }
+
     class B extends A {
-        public B(){
+        public B() {
 
         }
 
-        protected int call(){
+        protected int call() {
             return 1;
         }
     }
-    class D extends B{
-        public D(){
+
+    class D extends B {
+        public D() {
 
         }
-        public int call(){
+
+        public int call() {
             return 2;
         }
     }
-}record Point(int x, int y, int z){
+}
+abstract class G {
+    private int g;
 
+    public G(int g) {
+        this.g = g;
+    }
+
+    abstract String fun();
+
+    protected int getG() {
+        return g;
+    }
+}
+
+class H extends G {
+    public H() {
+        super(8);
+    }
+
+    String fun() {
+        return "Hello";
+    }
+
+    public int getH() {
+        return getG();
+    }
 }
