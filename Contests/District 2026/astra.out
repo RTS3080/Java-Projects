@@ -1,0 +1,20 @@
+GROUP ORDER: Smith
+------------------------------------------
+Student #1 (Grade 12, VIP)       : $  55.00
+Student #2 (Grade 11, REGULAR)   : $  45.00
+Student #3 (Grade 12, REGULAR)   : $  40.00
+------------------------------------------
+Group Total                      : $ 140.00
+
+
+GROUP ORDER: Johnson
+------------------------------------------
+Student #1 (Grade 10, VIP)       : $  58.50
+Student #2 (Grade 9, REGULAR)    : $  45.00
+Student #3 (Grade 10, VIP)       : $  58.50
+Student #4 (Grade 9, REGULAR)    : $  45.00
+Student #5 (Grade 10, VIP)       : $  58.50
+------------------------------------------
+Group Total (Disc. Applied)      : $ 265.50
+
+

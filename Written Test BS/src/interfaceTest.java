@@ -14,5 +14,15 @@ public class interfaceTest {
             return 3;
         }
     }
-
+    class Lambdas{
+        private interface FI {
+            public int go(int i);
+        }
+    }
+    public static void main(String[] args) {
+        Lambdas.FI lambda = i -> i%10 + i/10;
+        System.out.println(lambda.go(12345));
+    }
 }
+
+

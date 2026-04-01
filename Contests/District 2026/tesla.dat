@@ -1,0 +1,22 @@
+21
+ADD fruit apples 50
+ADD fruit bananas 1000
+ADD dairy milk 20
+ADD fruit apples 25
+QUERY apples
+CATEGORY fruit
+ADD dairy cheese 15
+TOTAL
+REMOVE milk 20
+CATEGORY dairy
+LIST
+REMOVE bananas 30
+CATEGORY fruit
+TOTAL
+REMOVE apples 10
+REMOVE bananas 1
+REMOVE milk 10
+REMOVE cheese 10
+LIST
+TOTAL
+CATEGORY fruit

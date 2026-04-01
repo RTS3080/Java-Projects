@@ -50,9 +50,19 @@ public class Main {
 //        byte a = 3;
 //        byte b = 8;
 
-        Integer[] a = new Integer[5];
-        System.out.println(a instanceof Object);
-        System.out.println(a[0] instanceof Integer);
+//        Integer[] a = new Integer[5];
+//        System.out.println(a instanceof Object);
+//        System.out.println(a[0] instanceof Integer);
+        String s= "ddddd";
+        System.out.println(s.split("d", 0).length);
+
+        puzzler p = null;
+        System.out.println(p.answer());
+    }
+    class puzzler{
+        static int answer(){
+            return 42;
+        }
     }
 
     class T {
