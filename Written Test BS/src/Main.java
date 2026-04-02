@@ -53,11 +53,13 @@ public class Main {
 //        Integer[] a = new Integer[5];
 //        System.out.println(a instanceof Object);
 //        System.out.println(a[0] instanceof Integer);
-        String s= "ddddd";
-        System.out.println(s.split("d", 0).length);
+//        String s= "ddddd";
+//        System.out.println(s.split("d", 0).length);
+//
+//        puzzler p = null;
+//        System.out.println(p.answer());
+        A a = new W.A(){}
 
-        puzzler p = null;
-        System.out.println(p.answer());
     }
     class puzzler{
         static int answer(){
