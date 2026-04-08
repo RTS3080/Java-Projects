@@ -17,8 +17,10 @@ public class esteban{
             if(type == 'C'){
                 t = 9./5 * t + 32;
             }
+
             double tFarenheit = t;
             double hi;
+
             hi = -42.379 + 2.04901523*t + 10.14333127 * h - 0.22475541 * t * h
                     - 0.00683783*t*t - 0.05481717*h*h + 0.00122874*t*t*h + 0.00085282*t*h*h
                     -0.00000199*t*t*h*h;
