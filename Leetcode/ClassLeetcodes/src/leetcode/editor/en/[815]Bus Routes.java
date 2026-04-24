@@ -20,20 +20,19 @@ class Solution {
         }
         int[] dists = new int[maxVal + 1];
         Arrays.fill(dists, Integer.MAX_VALUE);
-        Queue<Integer> queue = new LinkedList<>();
-        queue.offer(source);
-        queue.offer(0);
+        PriorityQueue<int[]> queue = new PriorityQueue<>((int[] a, int[] b)->a[1]-b[1]);
+        queue.offer(new int[]{source, 0});
         while (!queue.isEmpty()) {
-            int cur = queue.poll();
-            int dist = queue.poll();
+            int[] nums = queue.poll();
+            int cur = nums[0];
+            int dist = nums[1];
             if(dists[cur] <=dist) continue;
             if(cur == target) return dist;
             else{
                 dists[cur] = dist;
             }
             for(int i : map.get(cur)){
-                queue.offer(i);
-                queue.offer(dist+1);
+                queue.offer(new int[]{i, dist+1});
             }
         }
         return dists[target]==Integer.MAX_VALUE?-1:dists[target];

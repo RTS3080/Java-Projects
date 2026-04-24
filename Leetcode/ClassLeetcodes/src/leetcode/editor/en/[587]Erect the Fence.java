@@ -42,17 +42,60 @@ Explanation: The fence forms a line that passes through all the trees.
 package leetcode.editor.en;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.Stack;
 
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
+    record vector(int x, int y, int id) implements Comparable<vector>{
+        public int compareTo(vector o) {
+            return o.x == x ? o.y - y : o.x - x;
+        }
+        public boolean equals(Object o){
+            return (o instanceof vector) && compareTo((vector)o) == 0;
+        }
+    };
     public int[][] outerTrees(int[][] trees) {
-        record vector(int x, int y, double dist){};
-        vector leftNode = new vector(Integer.MAX_VALUE, 0, 0);
-        vector[] nodes = new vector[trees.length];
-        return new int[0][];
+        int n = trees.length;
+        if(n<=3) return trees;
+        vector[] nodes = new vector[n];
+        for (int i = 0; i < n; i++) {
+            vector node = new vector(trees[i][0], trees[i][1], i);
+            nodes[i]= node;
+        }
+        Arrays.sort(nodes);
+        
+        Stack<vector> hull = new Stack<>();
 
+        // Build Lower Hull
+        for (int i = 0; i < n; i++) {
+            while (hull.size() >= 2 && cross(hull.get(hull.size()-2), hull.peek(), nodes[i]) < 0) hull.pop();
+            hull.push(nodes[i]);
+        }
+
+        // Build Upper Hull
+        for (int i = n - 2, t = hull.size() + 1; i >= 0; i--) {
+            while (hull.size() >= t && cross(hull.get(hull.size()-2), hull.peek(), nodes[i]) < 0) hull.pop();
+            hull.push(nodes[i]);
+        }
+        Collections.sort(hull);
+        for(int i = hull.size()-1;i>0;i--){
+            if(hull.get(i).equals(hull.get(i-1))){
+                hull.remove(i);
+            }
+        }
+        int[][] res = new int[hull.size()-1][2];
+        for (int i = 0; i < res.length; i++) {
+            res[i][0] = hull.get(i).x;
+            res[i][1] = hull.get(i).y;
+        }
+        return res;
+    }
+    double cross(vector a, vector b, vector c){
+        vector ab = new vector(b.x-a.x, b.y-a.y, 0);
+        vector bc = new vector(c.x-b.x, c.y-b.y, 0);
+        return (ab.x * bc.y) - (ab.y * bc.x);
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)

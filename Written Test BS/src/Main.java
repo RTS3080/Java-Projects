@@ -58,9 +58,9 @@ public class Main {
 //
 //        puzzler p = null;
 //        System.out.println(p.answer());
-        String s= "testing";
-        s=String.copyValueOf(new char[] {'a'});
-        System.out.println(s);
+//        String s= "testing";
+//        s=String.copyValueOf(new char[] {'a'});
+//        System.out.println(s);
     }
     class puzzler{
         static int answer(){
