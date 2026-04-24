@@ -30,6 +30,7 @@ public class sofia{
             }
 
 
+
             DSU dsu = new DSU(map.size());
 
             for (String each : line) {

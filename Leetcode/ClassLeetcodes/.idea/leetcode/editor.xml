@@ -25,39 +25,6 @@
             </LeetcodeEditor>
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/src/leetcode/editor/en/[1453]Maximum Number of Darts Inside of a Circular Dartboard.java">
-          <value>
-            <LeetcodeEditor>
-              <option name="contentPath" value="$PROJECT_DIR$/src/leetcode/editor/en/doc/content/[1453]Maximum Number of Darts Inside of a Circular Dartboard.md" />
-              <option name="frontendQuestionId" value="leetcode.com1453" />
-              <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/src/leetcode/editor/en/[1453]Maximum Number of Darts Inside of a Circular Dartboard.java" />
-              <option name="titleSlug" value="maximum-number-of-darts-inside-of-a-circular-dartboard" />
-            </LeetcodeEditor>
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/src/leetcode/editor/en/[1584]Min Cost to Connect All Points.java">
-          <value>
-            <LeetcodeEditor>
-              <option name="contentPath" value="$PROJECT_DIR$/src/leetcode/editor/en/doc/content/[1584]Min Cost to Connect All Points.md" />
-              <option name="frontendQuestionId" value="leetcode.com1584" />
-              <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/src/leetcode/editor/en/[1584]Min Cost to Connect All Points.java" />
-              <option name="titleSlug" value="min-cost-to-connect-all-points" />
-            </LeetcodeEditor>
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/src/leetcode/editor/en/[2101]Detonate the Maximum Bombs.java">
-          <value>
-            <LeetcodeEditor>
-              <option name="contentPath" value="$PROJECT_DIR$/src/leetcode/editor/en/doc/content/[2101]Detonate the Maximum Bombs.md" />
-              <option name="frontendQuestionId" value="leetcode.com2101" />
-              <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/src/leetcode/editor/en/[2101]Detonate the Maximum Bombs.java" />
-              <option name="titleSlug" value="detonate-the-maximum-bombs" />
-            </LeetcodeEditor>
-          </value>
-        </entry>
         <entry key="$PROJECT_DIR$/src/leetcode/editor/en/[2280]Minimum Lines to Represent a Line Chart.java">
           <value>
             <LeetcodeEditor>
@@ -66,17 +33,6 @@
               <option name="host" value="leetcode.com" />
               <option name="path" value="$PROJECT_DIR$/src/leetcode/editor/en/[2280]Minimum Lines to Represent a Line Chart.java" />
               <option name="titleSlug" value="minimum-lines-to-represent-a-line-chart" />
-            </LeetcodeEditor>
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/src/leetcode/editor/en/[2452]Words Within Two Edits of Dictionary.java">
-          <value>
-            <LeetcodeEditor>
-              <option name="contentPath" value="$PROJECT_DIR$/src/leetcode/editor/en/doc/content/[2452]Words Within Two Edits of Dictionary.md" />
-              <option name="frontendQuestionId" value="leetcode.com2452" />
-              <option name="host" value="leetcode.com" />
-              <option name="path" value="$PROJECT_DIR$/src/leetcode/editor/en/[2452]Words Within Two Edits of Dictionary.java" />
-              <option name="titleSlug" value="words-within-two-edits-of-dictionary" />
             </LeetcodeEditor>
           </value>
         </entry>

@@ -8,6 +8,7 @@ import java.util.stream.Stream;
 public class Main {
     public static void main(String[] args) {
         new Main().run();
+
     }
 
     void run() {
@@ -61,7 +62,26 @@ public class Main {
 //        String s= "testing";
 //        s=String.copyValueOf(new char[] {'a'});
 //        System.out.println(s);
+//        try {
+//            String[] a = new String[2];
+//            Object[] b = a;
+//            b[0] = 2.34;
+//            System.out.println(1);
+//        }
+//        catch(ArrayStoreException e) {
+//            System.out.println(2);
+//        }
+//        finally{
+//            System.out.println(3);
+//        }
+        String s= null;
+        s+=1;
+        System.out.println(s);
+
+
     }
+    //(A!B + C)^(A + !D)*C
+
     class puzzler{
         static int answer(){
             return 42;
@@ -125,6 +145,8 @@ abstract class G {
         return g;
     }
 }
+
+
 
 class H extends G {
     public H() {
