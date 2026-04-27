@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9f047cde-c0ca-464a-a400-6936b2db6c06" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Classwork/Webcrawler/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Classwork/Webcrawler/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Classwork/Webcrawler/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Classwork/Webcrawler/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Classwork/Webcrawler/src/main/java/org/example/Webcrawler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Contests/Shootout 4.17.26/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Contests/Shootout 4.17.26/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Contests/Shootout 4.17.26/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Contests/Shootout 4.17.26/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Contests/Shootout 4.17.26/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Contests/Shootout 4.17.26/Shootout 4.17.26.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Contests/Shootout 4.17.26/balls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Contests/Shootout 4.17.26/don.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Contests/Shootout 4.17.26/eggs.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Contests/Shootout 4.17.26/intersections.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Contests/Shootout 4.17.26/pals.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Contests/Shootout 4.17.26/shoes.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Contests/Shootout 4.17.26/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Contests/Shootout 4.17.26/src/balls.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Contests/Shootout 4.17.26/src/don.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Contests/Shootout 4.17.26/src/eggs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Contests/Shootout 4.17.26/src/intersections.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Contests/Shootout 4.17.26/src/pals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Contests/Shootout 4.17.26/src/shoes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Contests/Shootout 4.17.26/src/train.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Contests/Shootout 4.17.26/src/twister.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Contests/Shootout 4.17.26/train.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Contests/Shootout 4.17.26/twister.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Contests/UTD/src/WeightedDiff1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Contests/UTD/src/WeightedDiff2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Contests/UTD/src/deal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Contests/UTD/src/island.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Contests/UTD/src/maxAura.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Contests/UTD/src/temocCamps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Contests/UTD/src/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Leetcode/ClassLeetcodes/src/leetcode/editor/en/[1453]Maximum Number of Darts Inside of a Circular Dartboard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Leetcode/ClassLeetcodes/src/leetcode/editor/en/[1584]Min Cost to Connect All Points.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Leetcode/ClassLeetcodes/src/leetcode/editor/en/doc/content/[1453]Maximum Number of Darts Inside of a Circular Dartboard.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Leetcode/ClassLeetcodes/src/leetcode/editor/en/doc/content/[1584]Min Cost to Connect All Points.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../UIL Practice/UTD Practice/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../UIL Practice/UTD Practice/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../UIL Practice/UTD Practice/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../UIL Practice/UTD Practice/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../UIL Practice/UTD Practice/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../UIL Practice/UTD Practice/UTD Practice.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../UIL Practice/UTD Practice/src/numberCrunching.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice Comp 4.16.26/Practice Comp 4.16.26.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice Comp 4.16.26/alaqmar.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice Comp 4.16.26/alaqmar.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice Comp 4.16.26/bowen.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice Comp 4.16.26/bowen.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice Comp 4.16.26/custard.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice Comp 4.16.26/custard.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice Comp 4.16.26/henglee.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice Comp 4.16.26/henglee.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice Comp 4.16.26/jade.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice Comp 4.16.26/jade.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice Comp 4.16.26/james.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice Comp 4.16.26/james.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice Comp 4.16.26/jared.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice Comp 4.16.26/jared.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice Comp 4.16.26/joseph.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice Comp 4.16.26/joseph.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice Comp 4.16.26/koa.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice Comp 4.16.26/koa.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice Comp 4.16.26/ryder.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice Comp 4.16.26/ryder.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice Comp 4.16.26/src/Bowen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice Comp 4.16.26/src/Henglee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice Comp 4.16.26/src/Joseph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice Comp 4.16.26/src/Symoon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice Comp 4.16.26/src/Thanh.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice Comp 4.16.26/src/alaqmar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice Comp 4.16.26/src/custard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice Comp 4.16.26/src/jade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice Comp 4.16.26/src/james.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice Comp 4.16.26/src/jared.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice Comp 4.16.26/src/koa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice Comp 4.16.26/src/ryder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice Comp 4.16.26/symoon.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice Comp 4.16.26/symoon.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice Comp 4.16.26/thanh.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice Comp 4.16.26/thanh.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Visualize Points.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/outputToDesmos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/visualizePoints.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leetcode/ClassLeetcodes/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Leetcode/ClassLeetcodes/.idea/leetcode/editor.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leetcode/ClassLeetcodes/.idea/leetcode/statistics.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Leetcode/ClassLeetcodes/.idea/leetcode/statistics.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leetcode/ClassLeetcodes/src/leetcode/editor/en/[587]Erect the Fence.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Leetcode/ClassLeetcodes/src/leetcode/editor/en/[587]Erect the Fence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leetcode/ClassLeetcodes/src/leetcode/editor/en/[815]Bus Routes.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Leetcode/ClassLeetcodes/src/leetcode/editor/en/[815]Bus Routes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Practice Comps/Practice Comp 4.8.26/src/sofia.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practice Comps/Practice Comp 4.8.26/src/sofia.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;RTS3080&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/RTS3080/Java-Projects.git&quot;,
+    &quot;accountId&quot;: &quot;d42abc85-0715-4394-8305-e78cca5aa91f&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="3CRiTsJr8nDPZcMcwiJlHMG81wx" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Application.outputToDesmos.executor&quot;: &quot;Run&quot;,
+    &quot;Application.visualizePoints.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.general&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.19416.15" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.19416.15" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9f047cde-c0ca-464a-a400-6936b2db6c06" name="Changes" comment="" />
+      <created>1776354794678</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1776354794678</updated>
+      <workItem from="1776354795732" duration="1154000" />
+      <workItem from="1776783540852" duration="922000" />
+      <workItem from="1776864577048" duration="216000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

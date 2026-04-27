@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ff09701e-c108-48c1-9d99-4308e5c8590a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Classwork/Webcrawler/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Classwork/Webcrawler/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Classwork/Webcrawler/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Classwork/Webcrawler/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Classwork/Webcrawler/src/main/java/org/example/Webcrawler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Leetcode/ClassLeetcodes/src/leetcode/editor/en/[1453]Maximum Number of Darts Inside of a Circular Dartboard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Leetcode/ClassLeetcodes/src/leetcode/editor/en/doc/content/[1453]Maximum Number of Darts Inside of a Circular Dartboard.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../UIL Practice/UTD Practice/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../UIL Practice/UTD Practice/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../UIL Practice/UTD Practice/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../UIL Practice/UTD Practice/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../UIL Practice/UTD Practice/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../UIL Practice/UTD Practice/UTD Practice.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../UIL Practice/UTD Practice/src/numberCrunching.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alaqmar.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alaqmar.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bowen.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bowen.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custard.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custard.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/henglee.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/henglee.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jade.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jade.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/james.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/james.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jared.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jared.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joseph.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joseph.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koa.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/koa.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ryder.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ryder.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Bowen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Henglee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Joseph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Symoon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Thanh.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/alaqmar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/custard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/james.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jared.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/koa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ryder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/symoon.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/symoon.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thanh.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thanh.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Visualize Points/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Visualize Points/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Visualize Points/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Visualize Points/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Visualize Points/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Visualize Points/Visualize Points.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Visualize Points/src/outputToDesmos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Visualize Points/src/visualizePoints.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leetcode/ClassLeetcodes/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Leetcode/ClassLeetcodes/.idea/leetcode/editor.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leetcode/ClassLeetcodes/.idea/leetcode/statistics.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Leetcode/ClassLeetcodes/.idea/leetcode/statistics.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leetcode/ClassLeetcodes/src/leetcode/editor/en/[587]Erect the Fence.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Leetcode/ClassLeetcodes/src/leetcode/editor/en/[587]Erect the Fence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leetcode/ClassLeetcodes/src/leetcode/editor/en/[815]Bus Routes.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Leetcode/ClassLeetcodes/src/leetcode/editor/en/[815]Bus Routes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Practice Comps/Practice Comp 4.8.26/src/sofia.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practice Comps/Practice Comp 4.8.26/src/sofia.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
+  <component name="ProjectId" id="3CSBNJsM5oeF5Tf3fZJLp7TKasN" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Bowen.executor": "Run",
+    "Application.Henglee.executor": "Run",
+    "Application.Joseph.executor": "Run",
+    "Application.Symoon.executor": "Run",
+    "Application.Thanh.executor": "Run",
+    "Application.alaqmar.executor": "Run",
+    "Application.custard.executor": "Run",
+    "Application.jade.executor": "Run",
+    "Application.james.executor": "Run",
+    "Application.jared.executor": "Run",
+    "Application.koa.executor": "Run",
+    "Application.ryder.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ryder\IdeaProjects\Utility\Practice Comp 4.16.26" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.19416.15" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.19416.15" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ff09701e-c108-48c1-9d99-4308e5c8590a" name="Changes" comment="" />
+      <created>1776369050414</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1776369050414</updated>
+      <workItem from="1776369051437" duration="8580000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

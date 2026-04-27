@@ -1,0 +1,143 @@
+10
+4 2 7 6
+Tyson 1
+Holyfield 2
+Lewis 3
+Foreman 4
+Tyson Holyfield 01/05/2025
+Lewis Foreman 01/05/2025
+Tyson Lewis 01/10/2025
+Holyfield Foreman 01/12/2025
+Tyson Holyfield 01/15/2025
+Lewis Foreman 01/20/2025
+3 1 5 4
+Ali 1
+Frazier 2
+Norton 3
+Ali Norton 03/01/2025
+Ali Frazier 03/05/2025
+Frazier Norton 03/08/2025
+Ali Frazier 03/12/2025
+5 3 10 8
+Rocky 1
+Apollo 2
+Clubber 3
+Drago 4
+Mason 5
+Rocky Apollo 02/01/2025
+Clubber Drago 02/01/2025
+Rocky Clubber 02/15/2025
+Apollo Mason 02/15/2025
+Rocky Mason 02/25/2025
+Drago Mason 02/20/2025
+Apollo Clubber 02/28/2025
+Rocky Apollo 03/01/2025
+6 2 3 10
+Alpha 1
+Bravo 2
+Charlie 3
+Delta 4
+Echo 5
+Foxtrot 6
+Alpha Bravo 04/01/2025
+Charlie Delta 04/01/2025
+Echo Foxtrot 04/01/2025
+Alpha Charlie 04/05/2025
+Bravo Delta 04/05/2025
+Alpha Bravo 04/06/2025
+Charlie Delta 04/06/2025
+Alpha Delta 04/10/2025
+Bravo Charlie 04/10/2025
+Echo Foxtrot 04/10/2025
+2 1 1 5
+Champ 1
+Contender 2
+Champ Contender 05/01/2025
+Champ Contender 05/02/2025
+Champ Contender 05/03/2025
+Champ Contender 05/04/2025
+Champ Contender 05/05/2025
+8 4 14 12
+P1 1
+P2 2
+P3 3
+P4 4
+P5 5
+P6 6
+P7 7
+P8 8
+P1 P5 06/01/2025
+P2 P6 06/01/2025
+P3 P7 06/01/2025
+P4 P8 06/01/2025
+P1 P2 06/10/2025
+P3 P4 06/10/2025
+P5 P6 06/16/2025
+P7 P8 06/16/2025
+P1 P3 06/20/2025
+P2 P4 06/20/2025
+P5 P7 06/25/2025
+P6 P8 06/25/2025
+4 1 0 6
+Quick 1
+Fast 2
+Speed 3
+Slow 4
+Quick Fast 07/01/2025
+Fast Speed 07/01/2025
+Speed Slow 07/01/2025
+Quick Fast 07/02/2025
+Fast Speed 07/02/2025
+Speed Slow 07/02/2025
+10 5 7 15
+A 1
+B 2
+C 3
+D 4
+E 5
+F 6
+G 7
+H 8
+I 9
+J 10
+A B 08/01/2025
+C D 08/01/2025
+E F 08/01/2025
+G H 08/01/2025
+I J 08/01/2025
+A C 08/05/2025
+B D 08/05/2025
+E G 08/10/2025
+F H 08/10/2025
+A F 08/12/2025
+B G 08/15/2025
+C H 08/15/2025
+D I 08/15/2025
+E J 08/15/2025
+A J 08/20/2025
+5 4 5 10
+Red 1
+Blue 2
+Green 3
+Yellow 4
+Orange 5
+Red Blue 09/01/2025
+Green Yellow 09/01/2025
+Red Orange 09/07/2025
+Blue Yellow 09/07/2025
+Green Orange 09/07/2025
+Red Green 09/13/2025
+Blue Orange 09/13/2025
+Yellow Orange 09/13/2025
+Red Yellow 09/19/2025
+Blue Green 09/19/2025
+3 2 30 6
+Gold 1
+Silver 2
+Bronze 3
+Gold Silver 10/01/2025
+Silver Bronze 10/15/2025
+Gold Bronze 10/20/2025
+Gold Silver 11/01/2025
+Silver Bronze 11/15/2025
+Gold Bronze 11/25/2025
