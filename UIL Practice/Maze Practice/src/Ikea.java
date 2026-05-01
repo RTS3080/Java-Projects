@@ -6,7 +6,7 @@ import static java.lang.Math.*;
 
 public class Ikea{
     char[][][] mat;
-    int[][][][] shadow;
+    int[][][] shadow;
     public void run() throws FileNotFoundException{
         Scanner f= new Scanner(new File("Ikea".toLowerCase()+".dat"));
         //Scanner f = new Scanner(new File("input.txt"));
@@ -17,12 +17,10 @@ public class Ikea{
             int c = f.nextInt();
             int numFurniture = f.nextInt();
             mat = new char[l][r][c];
-            shadow = new int[1 << numFurniture][l][r][c];
+            shadow = new int[l][r][c];
             for (int i = 0; i < shadow.length; i++) {
                 for (int j = 0; j < l; j++) {
-                    for (int k = 0; k < c; k++) {
-                        Arrays.fill(shadow[i][j][k], Integer.MAX_VALUE);
-                    }
+                    Arrays.fill(shadow[i][j], Integer.MAX_VALUE);
                 }
             }
             int[] starts = new int[3];
@@ -45,26 +43,33 @@ public class Ikea{
                 }
             }
 
+            int min = shadow[ends[0]][ends[1]][ends[2]];
+            System.out.println(min == Integer.MAX_VALUE ? "IKEAnnot do it." : "IKEAn do it.");
         }
         f.close();
     }
-    void dfs(int a, int l, int r, int c, int moves, int collected){
+    void dfs(int l, int r, int c, int moves, int collected){
         if(l < 0 || r < 0 || c < 0 || l >= mat.length || r >= mat[0].length || c >= mat[0][0].length || mat[l][r][c] == '#'
-        || shadow[a][l][r][c] <= moves){
+        || shadow[l][r][c] <= moves){
             return;
         }
         if(Character.isDigit(mat[l][r][c])){
             int digit = mat[l][r][c]-'0';
             if(digit != collected+1) return;
             collected++;
-            a |= 1 << 1+digit;
         }
-        shadow[a][l][r][c] = moves++;
+        shadow[l][r][c] = moves++;
         if(mat[l][r][c] == 'Z'){
-            dfs(a, l+1, r, c, moves, collected);
-            dfs(a, l-1, r, c, moves, collected);
+            dfs( l+1, r, c, moves, collected);
+            dfs( l-1, r, c, moves, collected);
         }
-        
+        else{
+            dfs( l, r-1, c, moves, collected);
+            dfs( l, r+1, c, moves, collected);
+            dfs( l, r, c+1, moves, collected);
+            dfs( l, r, c-1, moves, collected);
+
+        }
     }
 
 
