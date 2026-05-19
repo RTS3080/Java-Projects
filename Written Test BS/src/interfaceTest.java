@@ -1,5 +1,6 @@
 public class interfaceTest {
     interface A{
+        int a = 1;
         default int go(){
             return 1;
         }
@@ -12,6 +13,11 @@ public class interfaceTest {
     class C extends B implements A{
         public int go(){
             return 3;
+        }
+    }
+    interface D extends A{
+        default int go(){
+            return 1;
         }
     }
     class Lambdas{

@@ -73,20 +73,67 @@ public class Main {
 //        }
 //        finally{
 //            System.out.println(3);
-//        }
-        String s= null;
-        s+=1;
-        System.out.println(s);
+////        }
+//        String s= null;
+//        s+=1;
+//        System.out.println(s);
+//        String s = "I+love+Koa+Asagami";
+//        System.out.println(Arrays.toString(s.splitWithDelimiters("\\+", 0)));
 
+//        int aa$ = 2;
+//        System.out.println(aa$);
+
+//        var a = 2;
+//        var b = new ArrayList<String>();
+//        System.out.println(b.size());
+//        System.out.println(a);
+//        int[] arr = {1,2,3,4,5,6,7,8};
+//        arr[Nums.A.a] = 0;
+//
+//        double d = 1.2f;
+//        double b = 1.2;
+//        System.out.println(Long.toBinaryString(Double.doubleToLongBits(d)));
+//        System.out.println(d);
+//        System.out.println(Long.toBinaryString(Double.doubleToLongBits(b)));
+//        System.out.println(b);
+//        System.out.println(d == b);
+//        System.out.println(1.1e-300 == 1e-300);
+//        System.out.println(Long.toBinaryString(Double.doubleToLongBits(1e-300)));
+
+//        HashMap<Double, String > map = new HashMap<>();
+//        double x = -2 * 0.;
+//        double y = 2 * 0.;
+//        map.put(x, "red");
+//        map.put(y, "blue");
+//        System.out.println(map.get(x));
+
+
+//        System.out.println(Math.ceil(-5.9));
+//        String s = "test";
+//        System.out.println(Arrays.toString(s.codePoints().toArray()));
+//        Arrays.sort(new int[]{1,2});
+//        System.out.println(1.2 == 1.2f);
+
+        HashMap<String, String> set = new HashMap<>();
+
+        set.put(null, "0");
+        System.out.println(set.get(null));
 
     }
     //(A!B + C)^(A + !D)*C
-
+    enum Nums{
+        A(0), B(1), C(2), D(3);
+        int a;
+        Nums(int a){
+            this.a = a;
+        }
+    }
     class puzzler{
         static int answer(){
             return 42;
         }
     }
+
 
     class T {
         int x;

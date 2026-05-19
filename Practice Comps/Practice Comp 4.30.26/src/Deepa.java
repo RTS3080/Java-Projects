@@ -39,10 +39,7 @@ public class Deepa{
                     amtUsed =amt;
                 }
                 i++;
-//                System.out.println(amtPaid+" "+amtUsed);
             }
-//            System.out.println(amtPaid);
-//            System.out.println("----------");
             double effectivePercent = amtPaid / amt * 100;
             System.out.printf("Case #%d: $%,.2f %.3f%%\n", times+1,amtPaid, effectivePercent);
         }
