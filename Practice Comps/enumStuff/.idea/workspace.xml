@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3bba132d-c7b6-4b21-ac06-c47c7b94af22" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Leetcode/ClassLeetcodes/src/leetcode/editor/en/[1515]Best Position for a Service Centre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Leetcode/ClassLeetcodes/src/leetcode/editor/en/[478]Generate Random Point in a Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Leetcode/ClassLeetcodes/src/leetcode/editor/en/doc/content/[1515]Best Position for a Service Centre.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Leetcode/ClassLeetcodes/src/leetcode/editor/en/doc/content/[478]Generate Random Point in a Circle.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice Comp 5.14.26/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice Comp 5.14.26/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice Comp 5.14.26/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice Comp 5.14.26/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice Comp 5.14.26/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice Comp 5.14.26/Practice Comp 5.14.26.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice Comp 5.14.26/dominika.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice Comp 5.14.26/dominika.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice Comp 5.14.26/frogger.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice Comp 5.14.26/frogger.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice Comp 5.14.26/haru.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice Comp 5.14.26/haru.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice Comp 5.14.26/ishita.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice Comp 5.14.26/ishita.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice Comp 5.14.26/krazy.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice Comp 5.14.26/krazy.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice Comp 5.14.26/kristina.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice Comp 5.14.26/kristina.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice Comp 5.14.26/mia.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice Comp 5.14.26/mia.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice Comp 5.14.26/pamela.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice Comp 5.14.26/pamela.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice Comp 5.14.26/rhea.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice Comp 5.14.26/rhea.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice Comp 5.14.26/rodrigo.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice Comp 5.14.26/rodrigo.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice Comp 5.14.26/sheal.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice Comp 5.14.26/sheal.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice Comp 5.14.26/shirley.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice Comp 5.14.26/shirley.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice Comp 5.14.26/src/Dominika.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice Comp 5.14.26/src/Kristina.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice Comp 5.14.26/src/Mia.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice Comp 5.14.26/src/Rodrigo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice Comp 5.14.26/src/frogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice Comp 5.14.26/src/haru.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice Comp 5.14.26/src/ishita.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice Comp 5.14.26/src/krazy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice Comp 5.14.26/src/pamela.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice Comp 5.14.26/src/rhea.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice Comp 5.14.26/src/sheal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice Comp 5.14.26/src/shirley.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice Comp 5.6.26/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice Comp 5.6.26/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice Comp 5.6.26/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice Comp 5.6.26/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice Comp 5.6.26/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice Comp 5.6.26/Practice Comp 5.6.26.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice Comp 5.6.26/ethan.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice Comp 5.6.26/ethan.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice Comp 5.6.26/eui.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice Comp 5.6.26/eui.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice Comp 5.6.26/fatimah.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice Comp 5.6.26/fatimah.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice Comp 5.6.26/flights.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice Comp 5.6.26/harish.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice Comp 5.6.26/harish.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice Comp 5.6.26/isaac.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice Comp 5.6.26/isaac.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice Comp 5.6.26/isamu.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice Comp 5.6.26/isamu.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice Comp 5.6.26/isha.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice Comp 5.6.26/isha.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice Comp 5.6.26/kostya.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice Comp 5.6.26/kostya.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice Comp 5.6.26/paaus.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice Comp 5.6.26/paaus.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice Comp 5.6.26/pablo.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice Comp 5.6.26/pablo.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice Comp 5.6.26/rebecca.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice Comp 5.6.26/rebecca.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice Comp 5.6.26/reka.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice Comp 5.6.26/reka.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice Comp 5.6.26/src/Ethan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice Comp 5.6.26/src/Isha.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice Comp 5.6.26/src/Paaus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice Comp 5.6.26/src/Pablo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice Comp 5.6.26/src/fatimah.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice Comp 5.6.26/src/harish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice Comp 5.6.26/src/isamu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice Comp 5.6.26/src/reka.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Written Test BS/src/CloseableStuff.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leetcode/ClassLeetcodes/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Leetcode/ClassLeetcodes/.idea/leetcode/editor.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leetcode/ClassLeetcodes/.idea/leetcode/statistics.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Leetcode/ClassLeetcodes/.idea/leetcode/statistics.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice Comp 4.30.26/src/Deepa.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Practice Comp 4.30.26/src/Deepa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Written Test BS/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Written Test BS/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Written Test BS/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Written Test BS/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Written Test BS/src/interfaceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Written Test BS/src/interfaceTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "RTS3080"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/RTS3080/Java-Projects.git",
+    "accountId": "d42abc85-0715-4394-8305-e78cca5aa91f"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
+  <component name="ProjectId" id="3Dud8vUxMZWnB3qc3dok859NEuh" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.19416.15" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.19416.15" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3bba132d-c7b6-4b21-ac06-c47c7b94af22" name="Changes" comment="" />
+      <created>1779135735065</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1779135735065</updated>
+      <workItem from="1779135736104" duration="10000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
